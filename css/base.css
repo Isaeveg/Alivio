@@ -1,0 +1,32 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+html,
+body {
+  min-height: 100%;
+  background-color: #d6d6d6;
+}
+
+:root {
+  --font-main: "Lato", sans-serif;
+  --font-add: "Poppins", sans-serif;
+  --white: #fff;
+  --black: #000;
+  --color-primary: #01996d;
+  --color-text-first: #484848;
+  --color-text-second: #292929;
+  --color-text-third: #424242;
+  --btn-radius: 4px;
+}
